@@ -48,7 +48,7 @@ public class HttpsRequestDemo {
 	// 业务协议，固定值 CPIC_ECOM
 	private String documentProtocol = "CPIC_ECOM";
 
-	
+	private String a = "";
 
 	private String sentHttpPostRequest(String requestMsg) throws Exception {
 		HttpClient httpclient = new DefaultHttpClient();
